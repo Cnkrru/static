@@ -94,47 +94,63 @@ main {
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
 }
 
-/* ========== macOS button refinements ========== */
+/* ========== macOS style overrides ========== */
 .btn {
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 13px;
-  padding: 5px 14px;
-  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  border-radius: 10px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.1px;
+  transition: background-color 0.12s ease, border-color 0.12s ease, transform 0.1s ease, box-shadow 0.12s ease !important;
 }
 .btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
 }
 .btn:active {
-  transform: translateY(0) scale(0.98);
+  transform: scale(0.97) !important;
 }
 .btn-primary {
-  border-radius: 8px;
-  font-weight: 600;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
 }
 .gsc-comment-box {
-  border-radius: 12px;
+  border-radius: 14px !important;
+  overflow: hidden !important;
 }
 .gsc-comment-box-textarea {
-  border-radius: 10px;
-  font-size: 14px;
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px !important;
+  font-size: 14px !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 .gsc-comment-box-textarea:focus {
-  border-color: rgba(58, 170, 231, 0.5);
-  box-shadow: 0 0 0 3px rgba(58, 170, 231, 0.12);
+  border-color: rgba(58, 170, 231, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(58, 170, 231, 0.12) !important;
 }
 .gsc-comment {
-  font-size: 14px;
+  padding: 14px !important;
+  border-radius: 12px !important;
+  margin-bottom: 8px !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.04) !important;
 }
 .gsc-header {
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  margin-bottom: 12px;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  margin-bottom: 14px !important;
 }
 .gsc-timeline {
-  gap: 12px;
+  gap: 14px !important;
+}
+.gsc-reactions-button {
+  border-radius: 8px !important;
+}
+.gsc-social-reaction-summary-item {
+  border-radius: 20px !important;
+}
+.Box, .flash {
+  border-radius: 12px !important;
+}
+.form-control {
+  border-radius: 10px !important;
 }
