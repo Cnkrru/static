@@ -1,0 +1,24 @@
+{
+  "title": "资源下载",
+  "subtitle": "本站资源，国内直连加速。",
+  "groups": [
+    {
+      "name": "应用安装包",
+      "files": [
+        { "name": "LCVPN.apk", "path": "/apk/LCVPN.apk", "size": "5.5 MB", "tag": "APK" },
+        { "name": "Clash for Android", "path": "/apk/Clash for Android_2.5.12.premium.apk", "size": "34.3 MB", "tag": "APK" },
+        { "name": "飞鸟加速", "path": "/apk/飞鸟加速_2.3.5.apk", "size": "49.4 MB", "tag": "APK" }
+      ]
+    },
+    {
+      "name": "音乐",
+      "files": [
+        { "name": "MY ALL", "path": "/music/MY ALL.mp3", "size": "5.1 MB" },
+        { "name": "Stay With Me", "path": "/music/Stay With Me.mp3", "size": "2.2 MB" },
+        { "name": "半点心", "path": "/music/半点心.mp3", "size": "3.6 MB" },
+        { "name": "打上花火", "path": "/music/打上花火.mp3", "size": "4.5 MB" },
+        { "name": "生生世世爱", "path": "/music/生生世世爱.mp3", "size": "4.3 MB" }
+      ]
+    }
+  ]
+}
