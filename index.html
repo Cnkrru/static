@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cnkrru 资源下载站">
+<title>资源下载 · Cnkrru</title>
+<style>
+  :root {
+    --bg: #f7f5f1;
+    --card: #ffffff;
+    --text: #2b2a28;
+    --muted: #8a857c;
+    --border: #e7e2d8;
+    --accent: #b5482a;
+    --accent-soft: #f6e7df;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 40px 20px 72px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { margin-bottom: 32px; }
+  header h1 {
+    font-size: 30px;
+    font-weight: 750;
+    letter-spacing: 0.5px;
+  }
+  header p { color: var(--muted); font-size: 14px; margin-top: 6px; }
+  section { margin-bottom: 32px; }
+  section h2 {
+    font-size: 15px;
+    font-weight: 650;
+    color: var(--muted);
+    text-transform: none;
+    margin-bottom: 12px;
+    padding-left: 2px;
+  }
+  ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color .18s ease, transform .18s ease, box-shadow .18s ease;
+  }
+  li a:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 16px rgba(181,72,42,.10);
+    transform: translateY(-1px);
+  }
+  .name { font-size: 15px; font-weight: 600; }
+  .meta { font-size: 12.5px; color: var(--muted); flex-shrink: 0; }
+  .tag {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 2px 8px;
+    border-radius: 999px;
+    letter-spacing: .03em;
+    flex-shrink: 0;
+  }
+  .row { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .row .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>资源下载</h1>
+    <p>本站资源，国内直连加速。</p>
+  </header>
+
+  <section>
+    <h2>应用安装包</h2>
+    <ul>
+      <li>
+        <a href="/apk/LCVPN.apk" download>
+          <span class="row"><span class="tag">APK</span><span class="name">LCVPN.apk</span></span>
+          <span class="meta">5.5 MB</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>音乐</h2>
+    <ul>
+      <li><a href="/music/MY ALL.mp3" download><span class="row"><span class="name">MY ALL</span></span><span class="meta">5.1 MB</span></a></li>
+      <li><a href="/music/Stay With Me.mp3" download><span class="row"><span class="name">Stay With Me</span></span><span class="meta">2.2 MB</span></a></li>
+      <li><a href="/music/半点心.mp3" download><span class="row"><span class="name">半点心</span></span><span class="meta">3.6 MB</span></a></li>
+      <li><a href="/music/打上花火.mp3" download><span class="row"><span class="name">打上花火</span></span><span class="meta">4.5 MB</span></a></li>
+      <li><a href="/music/生生世世爱.mp3" download><span class="row"><span class="name">生生世世爱</span></span><span class="meta">4.3 MB</span></a></li>
+    </ul>
+  </section>
+
+  <footer>© Cnkrru · 资源下载</footer>
+</main>
+</body>
+</html>
